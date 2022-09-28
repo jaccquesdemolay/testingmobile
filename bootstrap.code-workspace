@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../scrimba/bootstrap"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "banco"
+	}
+}

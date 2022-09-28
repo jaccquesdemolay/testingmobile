@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenBank</title>
+
+    <!--- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Bootstrap css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!--favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/icons/favicon/site.webmanifest">
+    <link rel="mask-icon" href="images/icons/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- end favicon-->
+
+    <!-- fonts -->
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Inter">
+    <!-- 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+</head>
+<body>
+
+
+<!-----------------------------------           ---------------------------------------->
+
+ 
+    <header class="container">
+        <div class="list-group">
+
+            <div class="d-flex justify-content-between align-items-center">
+                
+                <!--- user profile image -->
+                <div class="mt-5 pt-5" >                   
+                    <a href="#" class="d-inline-block mw-100 rounded-circle img-profile"> 
+                    </a> 
+                </div>
+
+                <!-- nav top icons for logged user -->
+                <div class="align-text-bottom" id="menu-1">                                     
+                    <ul class="w-25 d-inline-flex list-unstyled">
+                        <li>                        
+                            <span class="glyphicon glyphicon-user mx-2" aria-hidden="true" role="button"></span>                             
+                        </li>
+                        <li>      
+                            <span class="glyphicon glyphicon-cog mx-3" aria-hidden="true" role="button"></span>                    
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- user welcome message -->
+        <h4 class="my-4 text-white font-weight-bold">Hello, John</h4>
+
+    </header>
+
+
+<!------------------------------- account section ---------------------------------------->
+
+
+    <section id="accountContent" class="container">
+        <a href="#" id="teste" class="h4 d-flex justify-content-between align-items-center font-weight-bold my-5 titles">
+            Account
+            <small><span class="glyphicon glyphicon-triangle-right txtColor2"></span></small>
+        </a>
+        <p class="h4 font-weight-bold">
+            $ 6.517,18
+        </p>
+    </section>
+
+
+ <!-----------------------------------           ---------------------------------------->
+ 
+ 
+    <nav id="menu-2" class="container mt-5 mb-3 navbar navbar-light navbar-expand">
+                    
+        <ul class="navbar-nav">
+            <li class="col col-5 navbar-item mr-3">
+                            <a href="#" class="m-0 p-0 text-center">
+                                <div class="w-100 d-flex align-items-center justify-content-center rounded-circle bg-light">
+                                    <span class="glyphicon glyphicon-credit-card"></span>
+                                </div>
+                                <h4 class="mt-4 font-weight-bold subtitles txtColor1">Payments</h4>
+                            </a>
+                        </li>
+                        <li class="col col-5 navbar-item mr-3">
+                            <a href="#" class="m-0 p-0 text-center text-dark">
+                                <div class="w-100 d-flex align-items-center justify-content-center rounded-circle bg-light">
+                                    <span class="glyphicon glyphicon-transfer"></span>
+                                </div>
+                                <h4 class="mt-4 font-weight-bold subtitles txtColor1">Transfer</h4>
+                            </a>
+                        </li>
+                        <li class="col col-5 navbar-item mr-3">
+                            <a href="#" class="m-0 p-0 text-center text-dark">
+                                <div class="w-100 d-flex align-items-center justify-content-center rounded-circle bg-light">
+                                    <span class="glyphicon glyphicon-piggy-bank"></span>
+                                </div>
+                                <h4 class="mt-4 font-weight-bold subtitles txtColor1">Savings</h4>
+                            </a>
+                        </li>
+                        <li class="col col-5 navbar-item mr-3">
+                            <a href="#" class="m-0 p-0 text-center text-dark">
+                                <div class="w-100 d-flex align-items-center justify-content-center rounded-circle bg-light">
+                                    <span class="glyphicon glyphicon-list-alt"></span>
+                                </div>
+                                <h4 class="mt-4 font-weight-bold subtitles txtColor1">Direct Debits</h4>
+                            </a>
+                        </li>
+                        <li class="col col-5 navbar-item mr-3">
+                            <a href="#" class="m-0 p-0 text-center text-dark">
+                                <div class="w-100 d-flex align-items-center justify-content-center rounded-circle bg-light">
+                                    <span class="glyphicon glyphicon-usd"></span>
+                                </div>
+                                <h4 class="mt-4 font-weight-bold subtitles txtColor1">Loans</h4>
+                            </a>
+                        </li>
+                       
+                    </ul>              
+        </nav>
+
+
+<!-----------------------------------           ---------------------------------------->
+
+
+        <section id="myCards" class="container">
+            <a href="#" class="w-100 p-4 d-flex align-items-center font-weight-bold my-3 subtitles txtColor1 btsTitles">
+                <span class="glyphicon glyphicon-credit-card mr-3"></span>
+                My Cards                
+            </a>
+            
+            <nav id="menu-3" class="w-100 navbar navbar-light navbar-expand">
+                <ul class="navbar-nav">
+                    <li class="navbar-item mr-3 btsTitles p-4" role="button">
+                        Seu <a href="#" class="txtColor3"> informe de rendimentos 2022</a> ja esta disponivel.
+                    </li>
+                    <li class="navbar-item mr-3 btsTitles p-4" role="button">
+                        Seu <a href="#" class="txtColor3"> informe de rendimentos 2022</a> ja esta disponivel.
+                    </li>
+                    <li class="navbar-item mr-3 btsTitles p-4" role="button">
+                        Seu <a href="#" class="txtColor3"> informe de rendimentos 2022</a> ja esta disponivel.
+                    </li>
+                    <li class="navbar-item mr-3 btsTitles p-4" role="button">
+                        Seu <a href="#" class="txtColor3"> informe de rendimentos 2022</a> ja esta disponivel.
+                    </li>
+                    <li class="navbar-item mr-3 btsTitles p-4" role="button">
+                        Seu <a href="#" class="txtColor3"> informe de rendimentos 2022</a> ja esta disponivel.
+                    </li>
+                </ul>
+            </nav>
+        
+            <a href="#" class="h4 d-flex justify-content-between align-items-center font-weight-bold mt-5 mb-3 titles">
+                Credit Card
+                <small><span class="glyphicon glyphicon-triangle-right txtColor2"></span></small>
+            </a>
+            <p class="font-weight-bold subtitles txtColor2">
+                Fatura atual
+            </p>
+            <p class="h4 font-weight-bold">
+                $ 6.517,18
+            </p>
+            <p class="font-weight-bold subtitles txtColor2">
+                Limite disponível de $ 8.448,67
+            </p>
+            <button class="buttn w-25 py-2 px-3 font-weight-bold border-0 subtitles txtColor1 btsTitles mb-3" >Pay Later</button>
+        </section>
+
+
+<!-----------------------------------           ---------------------------------------->
+
+
+        <section id="rewards" class="container">
+            <a href="#" class="w-100 p-4 d-flex align-items-center font-weight-bold my-3 subtitles txtColor1 btsTitles">
+                <span class="glyphicon glyphicon-gift mr-3"></span>
+                Rewards   
+                <span class="ml-auto p-2">886.579 pts</span>             
+            </a>        
+        </section>
+
+
+<!-----------------------------------           ---------------------------------------->
+
+
+        <section id="loan" class="container">
+            <a href="#" class="h4 d-flex justify-content-between align-items-center font-weight-bold mt-5 mb-3 titles">
+                Loan
+                <small><span class="glyphicon glyphicon-triangle-right txtColor2"></span></small>
+            </a>
+            <p class="font-weight-bold subtitles txtColor2">
+                Valor disponivel de ate <br>
+                $ 25.000,00
+            </p>
+        </section>
+
+
+<!-----------------------------------           ---------------------------------------->
+
+        <section id="investments" class="container">
+            <a href="#" class="h4 d-flex justify-content-between align-items-center font-weight-bold mt-5 mb-3 titles">
+                Investments
+                <small><span class="glyphicon glyphicon-triangle-right txtColor2"></span></small>
+            </a>
+            <p class="font-weight-bold subtitles txtColor2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium $1. Read more. 
+            </p>
+        </section>
+
+<!-----------------------------------           ---------------------------------------->
+
+<section id="benefits" class="container">
+    <a href="#" class="w-100 p-4 d-flex align-items-center font-weight-bold my-3 subtitles txtColor1 btsTitles">
+        <span class="gbank_icon rounded-circle mr-3"></span>
+        My GreenBank Benefits        
+    </a>
+</section>
+
+<!-----------------------------------           ---------------------------------------->
+        
+        <section id="insurances" class="container">
+            <a href="#" class="h4 d-flex justify-content-between align-items-center font-weight-bold mt-5 mb-3 titles">
+                Insurances
+                <small><span class="glyphicon glyphicon-triangle-right txtColor2"></span></small>
+            </a>
+            <p class="font-weight-bold subtitles txtColor2">
+                Protecao para voce cuidar do que importa.
+            </p>
+
+            <a href="#" class="w-100 p-4 d-flex justify-content-between align-items-center font-weight-bold my-3 subtitles txtColor1 btsTitles">
+                Life Insurance
+                <span class="mr-3 txtColor3 linkGreen" role="button">Discover</span>                        
+            </a>
+
+            <a href="#" class="w-100 p-4 d-flex justify-content-between align-items-center font-weight-bold my-3 subtitles txtColor1  btsTitles">                
+                Appliances Insurance
+                <span class="mr-3 txtColor3 linkGreen" role="button">Discover</span>
+            </a>
+        </section>
+
+<!-----------------------------------           ---------------------------------------->
+
+        <section id="shopping" class="container">
+            <a href="#" class="h4 d-flex justify-content-between align-items-center font-weight-bold mt-5 mb-3 titles">
+                Shoppping
+                <small><span class="glyphicon glyphicon-triangle-right txtColor2"></span></small>
+            </a>
+            <p class="font-weight-bold subtitles txtColor2">
+                Vantagens exclusivas das nossas marcas preferidas 
+            </p>
+
+            <a href="#" class="h4 d-flex justify-content-between align-items-center font-weight-bold mt-5 mb-3 titles">
+                Discover
+                <small><span class="glyphicon glyphicon-triangle-right txtColor2"></span></small>
+            </a>
+            
+
+            <section id="discover" class="w-100 navbar p-0 navbar-light navbar-expand mb-0 ">
+                <ul class="navbar-nav m-0">
+                    <li class="rounded btsTitles mr-4">                        
+                            <img class="w-100" src="https://blog.nubank.com.br/wp-content/uploads/2019/12/como-pedir-carta%CC%83o-nubank-header.jpg?w=1024">
+                        <div class="p-4 subtitles">
+                            <h4 class="subtitles font-weight-bold">Parcele compras no app</h4>
+                            <p class="subtitles text-muted">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit  at congue maximus.
+                            </p>
+                            <button class="buttn w-50 py-2 px-3 font-weight-bold border-0 subtitles text-white btsCards mt-3 mb-2   " >Read more</button>
+                        </div>
+                    </li>   
+                    <li class="rounded btsTitles mr-4">                        
+                            <img class="w-100" src="https://blog.nubank.com.br/wp-content/uploads/2019/12/como-pedir-carta%CC%83o-nubank-header.jpg?w=1024">
+                        <div class="p-4 subtitles">
+                            <h4 class="subtitles font-weight-bold">Parcele compras no app</h4>
+                            <p class="subtitles text-muted">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit  at congue maximus.
+                            </p>
+                            <button class="buttn w-50 py-2 px-3 font-weight-bold border-0 subtitles text-white btsCards my-3" >Read more</button>
+                        </div>
+                    </li>  
+                    <li class="rounded btsTitles mr-4">                        
+                            <img class="w-100" src="https://blog.nubank.com.br/wp-content/uploads/2019/12/como-pedir-carta%CC%83o-nubank-header.jpg?w=1024">
+                        <div class="p-4 subtitles">
+                            <h4 class="subtitles font-weight-bold">Parcele compras no app</h4>
+                            <p class="subtitles text-muted">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit  at congue maximus.
+                            </p>
+                            <button class="buttn w-50 py-2 px-3 font-weight-bold border-0 subtitles text-white btsCards my-3" >Read more</button>
+                        </div>
+                    </li>  
+                    <li class="rounded btsTitles">                        
+                            <img class="w-100" src="https://blog.nubank.com.br/wp-content/uploads/2019/12/como-pedir-carta%CC%83o-nubank-header.jpg?w=1024">
+                        <div class="p-4 subtitles">
+                            <h4 class="subtitles font-weight-bold">Parcele compras no app</h4>
+                            <p class="subtitles text-muted">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit  at congue maximus.
+                            </p>
+                            <button class="buttn w-50 py-2 px-3 font-weight-bold border-0 subtitles text-white btsCards mt-3 mb-1" >Read more</button>
+                        </div>
+                    </li>                 
+                </ul>             
+            </section>
+        </section>
+
+    
+        <hr>
+     
+
+    <!------------------------------- bootstrap and jquery js ------------------------------>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>    
+    
+</iframe>
+</body>
+</html>

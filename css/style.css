@@ -1,0 +1,146 @@
+/*css resets and modifications*/
+html{
+    font-size: 10px;
+    overflow-x: hidden;
+}
+*{
+    font-family: 'Inter', serif;    
+    color:rgb(29, 29, 29);
+}
+*:hover{
+    text-decoration: none !important;
+}
+
+header{
+    height: 18.1rem;
+    background: #339977;
+}
+h1{
+    font-size:1.8rem !important;
+}
+img{
+    border-radius: inherit;
+}
+
+/*bootstrap modifications*/
+.glyphicon:hover{
+    color:#000;
+    transition: 0.3s;
+}
+
+
+/* header */
+.img-profile{
+    width:4.8rem;
+    height:4.8rem;
+    background: url(../images/users/user-1/profile.jfif) no-repeat;
+    background-size: cover;
+}
+.img-profile:hover{
+    text-decoration: none;
+    outline: 1px solid #0f4d38;
+    box-shadow: 0px 0px 2px 2px #0f4d38;
+    transition: 0.2s;
+    transform: scale(1.25);
+}
+.img-profile:not(:hover){
+    transition: 0.2s;
+}
+#menu-1{
+    height:10rem;
+}
+#menu-1 ul{
+    margin-top:4.4rem;
+}
+#menu-1 ul li{
+    margin-left:1rem;
+}
+#menu-1 ul li span{
+    font-size: 2.2rem;
+}
+
+#menu-2, #menu-3{
+    overflow-x: scroll;
+    overflow-y:hidden;
+}
+#menu-2 a{
+    max-width: 100px;
+}
+
+#menu-2 ul li{
+    max-width: 100px;
+}
+#menu-2 ul li:hover, #menu-2 li:hover h4, #menu-2 ul li:hover span{
+    color: #000;    
+}
+#menu-2 ul li a div{
+    max-width:70px;
+    height: 70px;
+}
+#menu-2 .glyphicon {
+    font-size:2.4rem;
+}
+#menu-3 ul li{
+    width:22rem;
+}
+
+.txtColor1{
+    color:rgb(29, 29, 29);
+}
+.txtColor2{
+    color: #737682;
+}
+.txtColor3{
+    color: #339977;
+}
+.subtitles:hover, .titles:hover, .titles:hover span{
+    text-decoration: none;
+    color: #000 !important;
+}
+.subtitles{
+    font-size:1.4rem !important;   
+}
+.btsTitles{
+    background:#F0F1F5;
+    border-radius: 12px;
+}
+.btsCards{
+    background:#339977;
+    border-radius: 12px;
+}
+.btsTitles .glyphicon{
+    margin-top: -2.1px !important;
+}
+.buttn{
+    border-radius:20px;
+    font-size: 1.6rem !important;
+}
+.buttn:hover{
+    color: #339977;
+}
+
+.gbank_icon{
+    width: 15px;
+    height: 15px;
+    background: #339977
+}
+
+#discover{
+    overflow-x: scroll
+}
+#discover ul li{
+    width:240px;
+}
+
+#insurances:hover .linkGreen{
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 480px){
+    #menu-2, #menu-3, #discover{overflow-x: hidden;}
+}
+
+@-o-viewport {
+	width: 320px !important;
+	zoom: 0.5;
+}
